@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiki Treasure Hunt!</title>
+    <link rel="icon" type="image" href="https://live-core-image-service.vivialplatform.net/images/303062/orig/depositphotos_5722948_l-2015_cropped.k-UuyI605.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/tiki-tooka-bv" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bamboo-2" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tiki Treasure Hunt!</h1>
+    <h2>A Luau treasure hunt!</h2>
+
+    <img src="https://live.staticflickr.com/8076/8305092579_20f6bfdec1_b.jpg" alt="tiki statue" height="400px">
+    
+    <br/>
+
+    <h2 id="rule">Rules</h2>
+
+    <div class="container">
+        <ul class="myUL">
+            <li>Click the boxes to reveal what's inside</li>
+            <li>Each game you get three clicks</li>
+            <li>If you click tree (🌴), keep clicking</li>
+            <li>If you click the bomb (💣), Game Over</li>
+            <li>If you click on the Diamond (💎), you win!</li>
+        </ul>
+    </div>
+
+    <div id="gameBoard">
+        
+        <table border="10px, solid, black"; width="500px" height="500px">
+            
+            <tr><td id="0" onclick="treasure(0)">?</td><td id="1" onclick="treasure(1)">?</td><td id="2" onclick="treasure(2)">?</td></tr>
+            <tr><td id="3" onclick="treasure(3)">?</td><td id="4" onclick="treasure(4)">?</td><td id="5" onclick="treasure(5)">?</td></tr>
+            <tr><td id="6" onclick="treasure(6)">?</td><td id="7" onclick="treasure(7)">?</td><td id="8" onclick="treasure(8)">?</td></tr>
+
+        </table>
+
+    </div>
+
+    <br/>
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <footer>
+        &copy; A Vance and Will Production | LEARN Academy | March '23 <a href="Tiki Wikipedia"></a>
+    </footer>
+
+    <script type="text/javascript" src="treasure-hunt.js"></script>
+
+    <div></div>
+
+</body>
+</html>

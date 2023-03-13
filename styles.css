@@ -1,0 +1,76 @@
+html{
+    border: 10px solid black;
+}
+
+body{
+
+    background-image: linear-gradient(to left bottom, #afbf9b, #afbf9b, #afbf9b, #afbf9b, #afbf9b, #a1bb9a, #93b79a, #85b39b, #67a8a0, #519ba6, #4a8da8, #547ca4);
+
+    background-size: 50px;
+    background-repeat: no-repeat;
+
+    background-position: bottom, right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+
+    text-align: center;
+
+}
+
+h1{
+    color: rgb(12,69,125);
+    font-family: 'Tiki Tooka BV', sans-serif;
+    font-size: 90px;
+}
+
+h2{
+    color: rgb(193,68,66);
+    font-family: 'Bamboo', sans-serif;
+    font-size: 45px;
+}
+
+#header2{
+    text-decoration: underline;
+    margin-block-end: 5px;
+}
+
+#rules{
+    text-align: center;
+}
+
+ul.myUL{
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+#gameBoard{
+    background-image: url("https://images.unsplash.com/photo-1554658507-937832ba9c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    box-sizing: content-box;
+    width: 100%;
+
+    /* border: 50px, black, solid; */
+
+    display: flex;
+    justify-content: center;
+}
+
+tr{
+    font-size: 50px;
+    font-weight: 800;
+    color: #0c457d;
+    text-shadow: 2px 2px 2px white;
+    border: 100px, solid, black;
+   
+}
+
+td{
+    width: 33%;
+    height: 33%;
+}
